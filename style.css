@@ -1,25 +1,33 @@
+body {
+    text-align: center;
+    background-color: blanchedalmond;
+}
+
 h1 {
     text-align: center;
-    color: rebeccapurple;
-    font-size: 50px;
-    font-family: serif;
+    color: rgb(33, 201, 178);
+    font-size: 100px;
+    font-family: "Manga Temple";
 }
 
-h3 {
-    padding-left: 500px;
-}
-
-form {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+h4 {
+    text-align: center;
+    margin-left: 600px;
+    font-family: "Manga Temple";
+    margin-top: 0px;
+    font-size: smaller;
 }
 
 input {
-    margin-left: 10px;
+    margin-left: 25px;
 }
 
-.center {
+label {
+    font-size: medium;
+    font-family: "Manga Temple";
+}
+
+.anime-container {
     width: 50%;
     float: left;
     display: table-cell;
@@ -32,6 +40,34 @@ input {
     cursor: pointer;
     margin: auto;
     width: 30%;
+}
+
+#anime-title {
+    font-family: "Manga Temple";
+}
+
+#functionality {
+    padding-top: 30px;
+    padding-bottom: 50px;
+ 
+}
+
+#search-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 650px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+#random-generator {
+    border-radius: 16px;
+    font-family: "Manga Temple";
+    padding-right: 100px;
+    padding-left: 100px;
+    float: center;
+    resize: none;
 }
 
 #search {
@@ -64,6 +100,9 @@ input {
 
 #featured-anime-image {
     max-width: 100%;
+    border-radius: 20px;
+    padding-right: 100px;
+    padding-left: 250px;
     border-radius: 20px;
 }
 

@@ -31,15 +31,20 @@ label {
     width: 50%;
     float: left;
     display: table-cell;
+    position: relative;
 }
 
-.favorite-button {
+#favorite-button {
     padding: 15px;
     background-color: #D8FAB9;
     border-radius: 16px;
     cursor: pointer;
     margin: auto;
     width: 30%;
+    position: relative;
+    top: 600px;
+
+    
 }
 
 #anime-title {
@@ -62,12 +67,19 @@ label {
 }
 
 #random-generator {
+    padding: 15px;
+    background-color: #D8FAB9;
     border-radius: 16px;
+    cursor: pointer;
+    margin: auto;
+    width: 30%;
+    font-family: "Manga Temple";
+    /* border-radius: 16px;
     font-family: "Manga Temple";
     padding-right: 100px;
     padding-left: 100px;
     float: center;
-    resize: none;
+    resize: none; */
 }
 
 #search {

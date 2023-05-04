@@ -60,6 +60,7 @@ function getAnime(e) {
 
 function changeColor() {
     featuredAnime.style.color = "red";
+    
 }
 
 function changeColorBack() {
